@@ -1,0 +1,20 @@
+# Streamlit web app framework
+streamlit==1.39.0
+
+# MongoDB driver
+pymongo==4.8.0
+
+# Data manipulation
+pandas==2.2.3
+
+# DNS resolution (required by MongoDB Atlas)
+dnspython==2.7.0
+
+# Optional: bcrypt / password hashing (not needed because we use hashlib)
+# bcrypt==4.2.0
+
+# For BSON ObjectId support (included automatically with pymongo)
+# bson is part of pymongo, so no separate install needed
+
+
+certifi==2024.8.30
